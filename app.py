@@ -8,7 +8,7 @@ HTML = """
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Coming Soon</title>
+    <title>Jcullop</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -46,8 +46,8 @@ HTML = """
 </head>
 <body>
     <div class="card">
-        <h1>Coming Soon</h1>
-        <p>We’re building something great.<br>Check back soon.</p>
+        <h1>Jcullop</h1>
+        <p></p>
         <div class="badge">© 2026</div>
     </div>
 </body>
@@ -63,4 +63,3 @@ def home():
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 10000))
     app.run(host="0.0.0.0", port=port)
-
